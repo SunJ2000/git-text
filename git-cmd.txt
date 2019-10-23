@@ -1,3 +1,4 @@
 echo "file" >> <name>       //创建文件，文件类型由文件拓展名决定
 git remote add origin https://github.com/sun-tao-jian/try.git
 git push -u origin master                                            //将本地仓库的文件提交到远程仓库中，如果没有该仓库，则新建一个
+git branch <name>                       //创建一个分支
