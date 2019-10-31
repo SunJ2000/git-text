@@ -4,5 +4,5 @@ git push -u origin master                                            //½«±¾µØ²Ö¿
 git branch <name>						    //´´½¨Ò»¸ö·ÖÖ§
 git checkout  <name>						   //ÇÐ»»·ÖÖ§
 git log --decorate						   //²é¿´·ÖÖ§
-try
-
+git merge <name>                                                   //ºÏ²¢·ÖÖ§
+git branch -d <name>                                                //É¾³ý·ÖÖ§
