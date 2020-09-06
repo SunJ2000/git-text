@@ -1,4 +1,5 @@
 echo "file" >> <name>                                                  //创建文件，文件类型由文件拓展名决定
+git add ./ <file>					//表示增加某个子文件夹下的文件
 git remote add origin https://github.com/sun-tao-jian/git-text.git
 git push -u origin master                                            //将本地仓库的文件提交到远程仓库中，如果没有该仓库，则新建一个
 git branch <name>						    //创建一个分支
@@ -6,5 +7,5 @@ git checkout  <name>						   //切换分支
 git log --decorate						   //查看分支详细信息
 git merge <name>                                                   //合并分支
 git branch -d <name>                                                //删除分支
-git branch								//查看分支列表
-tyr
+git branch						 		//查看分支列表
+git clone URL							//将仓库克隆至本地
