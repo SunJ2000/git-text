@@ -1,11 +1,11 @@
-echo "file" >> <name>                                                  //´´½¨ÎÄ¼ş£¬ÎÄ¼şÀàĞÍÓÉÎÄ¼şÍØÕ¹Ãû¾ö¶¨
-git add ./ <file>					//±íÊ¾Ôö¼ÓÄ³¸ö×ÓÎÄ¼ş¼ĞÏÂµÄÎÄ¼ş
+echo "file" >> <name>                                                  //åˆ›å»ºæ–‡ä»¶ï¼Œæ–‡ä»¶ç±»å‹ç”±æ–‡ä»¶æ‹“å±•åå†³å®š
+git add ./ <file>					//è¡¨ç¤ºå¢åŠ æŸä¸ªå­æ–‡ä»¶å¤¹ä¸‹çš„æ–‡ä»¶
 git remote add origin https://github.com/sun-tao-jian/git-text.git
-git push -u origin master                                            //½«±¾µØ²Ö¿âµÄÎÄ¼şÌá½»µ½Ô¶³Ì²Ö¿âÖĞ£¬Èç¹ûÃ»ÓĞ¸Ã²Ö¿â£¬ÔòĞÂ½¨Ò»¸ö
-git branch <name>						    //´´½¨Ò»¸ö·ÖÖ§
-git checkout  <name>						   //ÇĞ»»·ÖÖ§
-git log --decorate						   //²é¿´·ÖÖ§ÏêÏ¸ĞÅÏ¢
-git merge <name>                                                   //ºÏ²¢·ÖÖ§
-git branch -d <name>                                                //É¾³ı·ÖÖ§
-git branch						 		//²é¿´·ÖÖ§ÁĞ±í
-git clone URL							//½«²Ö¿â¿ËÂ¡ÖÁ±¾µØ
+git push -u origin master                                            //å°†æœ¬åœ°ä»“åº“çš„æ–‡ä»¶æäº¤åˆ°è¿œç¨‹ä»“åº“ä¸­ï¼Œå¦‚æœæ²¡æœ‰è¯¥ä»“åº“ï¼Œåˆ™æ–°å»ºä¸€ä¸ª
+git branch <name>						    //åˆ›å»ºä¸€ä¸ªåˆ†æ”¯
+git checkout  <name>						   //åˆ‡æ¢åˆ†æ”¯
+git log --decorate						   //æŸ¥çœ‹åˆ†æ”¯è¯¦ç»†ä¿¡æ¯
+git merge <name>                                                   //åˆå¹¶åˆ†æ”¯
+git branch -d <name>                                                //åˆ é™¤åˆ†æ”¯
+git branch						 		//æŸ¥çœ‹åˆ†æ”¯åˆ—è¡¨
+git clone URL							//å°†ä»“åº“å…‹éš†è‡³æœ¬åœ°
